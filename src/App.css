@@ -4,3 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+h1 {
+  margin: 20px 40px 20px 40px;
+}
