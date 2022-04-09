@@ -18,13 +18,15 @@
 }
 
 .productItem img {
-    max-width: 300px;
+    max-width: 304px;
+    min-height: 300px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
 
 .productName {
     padding: 5px;
+    margin-top: 10px;
     text-align: start;
     font-weight: 700;
 }
@@ -32,6 +34,7 @@
 .productPrice {
     padding: 5px;
     color: rgb(48, 47, 47);
+    margin-bottom: 5px;
 }
 
 .btn {
