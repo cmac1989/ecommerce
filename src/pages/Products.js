@@ -11,6 +11,7 @@ function Products(props) {
         <ul className={classes.productList}>
           {productData.map((product) => {
             return <ProductItem 
+              key={product.id}
               id={product.id}
               name={product.name}
               price={product.price}

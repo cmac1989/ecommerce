@@ -6,13 +6,14 @@ import classes from '../pages/Products.module.css'
 function ProductItem(props) {
     const dispatch = useDispatch()
 
-    const { name, price, id } = props
+    const { name, price, id, image } = props
 
     const addToCartHandler = () => {
         dispatch(cartActions.addToCart({
           id,
           name,
           price,
+          image,
         }))
       }
 

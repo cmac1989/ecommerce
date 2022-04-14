@@ -1,4 +1,3 @@
-import {BrowserRouter} from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
@@ -11,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Routes>
+      <Routes> 
         <Route path='/home' element={<Home />} />
         <Route path='/products' element={<Products />} />
         <Route path='/contact' element={<Contact />} />
