@@ -15,6 +15,9 @@ function ProductItem(props) {
           price,
           image,
         }))
+        return (
+            <productModal />
+        )
       }
 
   return (
@@ -30,3 +33,4 @@ function ProductItem(props) {
 }
 
 export default ProductItem
+
